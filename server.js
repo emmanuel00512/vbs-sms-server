@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const FAST2SMS_API_KEY = 'PASTE_YOUR_FAST2SMS_KEY';
+const FAST2SMS_API_KEY = 'xn6EKbyj89eiWZPwO7SLlTvpNoDIYzU2GV0XaQdqF5JCARfB4uTWuq4bl9gHY6I7wMUaQszP2JNVjLtk';
 
 app.post('/send-sms', async (req, res) => {
 
@@ -25,7 +25,7 @@ app.post('/send-sms', async (req, res) => {
             },
             {
                 headers: {
-                    authorization: FAST2SMS_API_KEY,
+                    authorization: xn6EKbyj89eiWZPwO7SLlTvpNoDIYzU2GV0XaQdqF5JCARfB4uTWuq4bl9gHY6I7wMUaQszP2JNVjLtk,
                     'Content-Type': 'application/json'
                 }
             }
